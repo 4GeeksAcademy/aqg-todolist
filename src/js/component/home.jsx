@@ -36,7 +36,7 @@ const Home = () => {
 					</li>
 				))}
 			</ul>
-			<div>{todos.length} tasks</div>
+			<div>{todos.length == 0 ? 'No tasks, please add a new one' : todos.length + ' tasks'}</div>
 		</div>
 	);
 };
